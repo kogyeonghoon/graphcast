@@ -24,6 +24,8 @@ dependencies:
   - xz=5.6.4=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
   - pip:
+      - "--extra-index-url https://download.pytorch.org/whl/cpu"
+      - "torch==2.8.0"
       - absl-py==2.3.0
       - asciitree==0.3.3
       - asttokens==3.0.0
@@ -152,3 +154,10 @@ dependencies:
       - xarray-tensorstore==0.1.5
       - zarr==2.18.3
       - zipp==3.22.0
+      - optax==0.2.6
+      - wandb==0.21.4
+      - xbatcher==0.4.0
+      - tqdm==4.67.1
+      - netcdf4==1.7.2
+      - gcsfs==2025.9.0
+      - einops==0.8.1
