@@ -310,7 +310,7 @@ outputs/
 results/
 experiments/
 runs/
-*.txt
+# *.txt
 *.out
 
 # Temporary and debug files
