@@ -1,0 +1,6 @@
+apply_log_first: true
+base_period: 16.0
+num_frequencies: 32
+output_sizes: !!python/tuple
+- 32
+- 16

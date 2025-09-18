@@ -1,0 +1,25 @@
+grid2mesh_aggregate_normalization: null
+hidden_layers: 1
+latent_size: 512
+mesh_size: 4
+node_output_size: null
+norm_conditioning_features: !!python/tuple
+- noise_level_encodings
+radius_query_fraction_edge_length: 0.6
+sparse_transformer_config:
+  attention_k_hop: 16
+  attention_type: triblockdiag_mha
+  attn_winit_final_mult: 0.0
+  block_kv: 512
+  block_kv_compute: 256
+  block_kv_dkv: 1024
+  block_kv_dkv_compute: 1024
+  block_q: 1024
+  block_q_dkv: 512
+  d_model: 512
+  ffw_hidden: 2048
+  ffw_winit_final_mult: 0.0
+  mask_type: full
+  name: null
+  num_heads: 4
+  num_layers: 16
