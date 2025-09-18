@@ -225,7 +225,11 @@ venv2/
 ENV/
 env.bak/
 venv.bak/
-
+!env/
+!env/environment.yml
+!env/requirements-pip.txt
+!env/README.md
+!env/conda-*.lock
 # Spyder project settings
 .spyderproject
 .spyproject
