@@ -337,3 +337,4 @@ tmp/
 config.ini
 secrets.yaml
 .secrets
+!stats/**
