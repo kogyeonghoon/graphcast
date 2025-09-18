@@ -1,3 +1,13 @@
+### Installation note
+
+After installing environment using environments.yaml, need to install:
+
+```bash
+pip install optax wandb xbatcher tqdm netcdf4 gcsfs einops
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+```
+
+
 ### Evaluation of GenCast 0.25deg with sparse data
 
 
